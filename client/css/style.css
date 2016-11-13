@@ -1,0 +1,35 @@
+ html, body, .container-table {
+    height: 100%;
+}
+
+.logotext {
+	color: black;
+}
+
+.logotext:hover {
+	font-weight: bold;
+	color: black;
+}
+.background-image {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  z-index: -1;
+
+  display: block;
+  background-image: url('hack1.jpg');
+      -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: top center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed;
+
+  -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -o-filter: blur(1px);
+  -ms-filter: blur(1px);
+  filter: blur(1px);
+}
